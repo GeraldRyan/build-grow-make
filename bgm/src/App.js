@@ -20,14 +20,14 @@ function App() {
         <div className="pre flexed-centered">
           <Link to="/">
             {/* <a href="/">Home </a> */}
-            Home
+            Home  
           </Link>
           <Link to="/projects">
-            Projects
+            Projects  
             {/* <a href="/projects">Projects </a> */}
           </Link>
           <Link to="/blog">
-            Blog
+            Blog  
             {/* <a href="/blog">Blog </a> */}
           </Link>
           <Link to="/about">

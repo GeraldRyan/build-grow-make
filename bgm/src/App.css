@@ -76,7 +76,8 @@ p{
   margin:auto;
   /* margin-bottom: 2rem; */
   max-width: 75%;
-  font-size:2rem
+  font-size:2rem;
+  word-spacing: 30px;
 }
 
 .banner{
