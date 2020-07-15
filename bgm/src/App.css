@@ -37,8 +37,11 @@
   25% {
     transform: rotate(0deg);
   }
-  75%{
+  50%{
     transform: rotate(26deg);
+  }
+  75%{
+    transform: rotate(-0deg);
   }
   100%{
     transform: rotate(-16deg);
