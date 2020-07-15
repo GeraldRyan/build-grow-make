@@ -1,12 +1,10 @@
 import React from "react";
-import Gears from "../assets/gears.jpg";
 
 const Blog = () => {
   return (
     <div id="blogdiv">
-      
+      My Blog
       <br/>
-      <img src={Gears} alt="Gold Gears" id="gears" />
     </div>
   );
 };
