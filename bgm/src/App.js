@@ -1,28 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import tool from './crossedtools.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import tool from "./crossedtools.svg";
+import "./App.css";
+import Blog from './components/Blog'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <p className="pre">
-          Build    Grow    Make
-        </p>
+        <div className="pre banner flexed-centered">
+          <p>Build </p>
+          <p>Grow </p>
+          <p>Make</p>
+        </div>
         <img src={tool} className="App-logo" alt="logo" />
-        <p className="pre">
-          Projects    Blog    About
-        </p>
-        <a
+      </header>
+      <body className="App-body">
+        <div className="pre flexed-centered">
+          <a>Projects    </a>
+          <a href="/blog">Blog    </a>
+          <a>About</a>
+        </div>
+        <Blog />
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Enter Site
-        </a>
-      </header>
+        </a> */}
+
+      </body>
     </div>
   );
 }

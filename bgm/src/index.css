@@ -11,7 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-*{
-  border: 1px solid red;
+a{
+  text-decoration: none;
+  color:inherit
 }
+a:hover{
+  color:rgb(207, 69, 69)
+}
+/* *{
+  border: 1px solid red;
+} */
