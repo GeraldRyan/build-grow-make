@@ -9,12 +9,12 @@ const Blog = () => {
       <br />
       <div className="post">
         {Object.keys(Blogposts).map(key => (
-          <>
+          <div key={key}>
 
             <div className="blogtitle">{Blogposts[key]["title"]}</div>
             <div className="blogcontent">{Blogposts[key]["body"]}</div>
             <br />
-          </>
+          </div>
         ))}
       </div>
     </div>
