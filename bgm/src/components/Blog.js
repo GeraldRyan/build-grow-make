@@ -4,12 +4,19 @@ import { Blogposts } from "../assets/Blogposts";
 const Blog = () => {
   return (
     <div id="blogdiv">
-      My Blog
-      <br/>
-      <br/>
-      <div>{Blogposts[1]["title"]}</div>
-      <div>{Blogposts[1]["body"]}</div>
       <br />
+      <div>My Blog</div>
+      <br />
+      <div className="post">
+        {Object.keys(Blogposts).map(key => (
+          <>
+
+            <div className="blogtitle">{Blogposts[key]["title"]}</div>
+            <div className="blogcontent">{Blogposts[key]["body"]}</div>
+            <br />
+          </>
+        ))}
+      </div>
     </div>
   );
 };

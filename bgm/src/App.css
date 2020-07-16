@@ -84,3 +84,11 @@ p{
   font-size: 1.5rem;
 }
 
+.blogtitle{
+  font-weight:bold
+}
+.blogcontent{
+  font-size:1rem;
+  max-width:75%;
+  margin:auto
+}
